@@ -35,7 +35,14 @@ ul.hr li{
    line-height: 0.5;
    margin-top: 0;
    margin-bottom: 0;
+  } 
+.contact h1{
+text-align: center;
 }
+.contact h3{
+    text-align: center;
+}
+
 .right-side{
     font-size: 24px;
     font: bold;
@@ -53,8 +60,11 @@ ul.hr li{
     padding: 0;
 }
 .footer{
-    background-color: black;
-    padding: 10px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.795);
+    padding: 20px 60px 20px 60px;
     border: 2px;
     margin-left: 200px;
     margin-right: 200px;
@@ -63,4 +73,5 @@ ul.hr li{
 .footer_github{
     font: 18px Arial, sans-serif;
     color: white; 
+    text-align: center;
 }
