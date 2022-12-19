@@ -1,5 +1,66 @@
 
-.heading{
+.left-side{
     font-size: 24px;
     font: bold;
+    padding: 20px;
+    border: 2px;
+    margin-left: 200px;
+    margin-right: 1300px;
+    background: rgb(221, 207, 207);
+}
+.block-1{
+    
+    padding: 20px;
+    border: 2px;
+    background: rgb(109, 109, 206);
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+ul.hr{
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+}
+ul.hr li{
+    display: inline;
+    margin-right: 20px;
+}
+.photo{
+    width: 100%;
+    object-fit: cover;
+}
+.contact{
+    text-align: left;
+   line-height: 0.5;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+.right-side{
+    font-size: 24px;
+    font: bold;
+    padding: 20px;
+    border: 2px;
+    margin-left: 604px;
+    margin-right: 200px;
+    margin-top: -654px;
+   
+}
+.right-side p{
+    background-color: white;
+    font-size: 18px;
+    margin: 0,60,0,60;
+    padding: 0;
+}
+.footer{
+    background-color: black;
+    padding: 10px;
+    border: 2px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 300px;
+}
+.footer_github{
+    font: 18px Arial, sans-serif;
+    color: white; 
 }
